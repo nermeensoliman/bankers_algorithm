@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bankers Algorithm</title>
+  </head>
+  <body>
+    <div class="bigboss">
+      <div class="container">
+        <div class="part1">
+          <h2>Allocation</h2>
+          <div class="allocation">
+            <div class="resource1">
+              <p>Resource 1</p>
+              <input type="text" id="input-process-resource1" />
+            </div>
+            <div class="resource2">
+              <p>Resource 2</p>
+              <input type="text" id="input-process-resource2" />
+            </div>
+            <div class="resource3">
+              <p>Resource 3</p>
+              <input type="text" id="input-process-resource3" />
+            </div>
+          </div>
+          <br />
+          <input type="button" value="Add Process" class="allocate-button" />
+          <h2>Max Matrix</h2>
+          <div class="maxmatrix">
+            <div class="resource1">
+              <p>Resource 1</p>
+              <input type="text" id="input-max-resource1" />
+            </div>
+            <div class="resource2">
+              <p>Resource 2</p>
+              <input type="text" id="input-max-resource2" />
+            </div>
+            <div class="resource3">
+              <p>Resource 3</p>
+              <input type="text" id="input-max-resource3" />
+            </div>
+          </div>
+          <br />
+          <input type="button" value="Add Process" class="maxmatrix-button" />
+          <h2>Avaliable</h2>
+          <div class="available">
+            <div class="resource1">
+              <p>Resource 1</p>
+              <input type="text" id="input-available-resource1" />
+            </div>
+            <div class="resource2">
+              <p>Resource 2</p>
+              <input type="text" id="input-available-resource2" />
+            </div>
+            <div class="resource3">
+              <p>Resource 3</p>
+              <input type="text" id="input-available-resource3" />
+            </div>
+          </div>
+          <br />
+          <input
+            id="cal"
+            type="button"
+            value="Calculate"
+            class="calculate-button"
+          />
+        </div>
+
+        <div class="part2">
+          <div class="allocationtable">
+            <table>
+              <caption>
+                <strong>Allocation Table</strong>
+              </caption>
+              <tr>
+                <th>Process</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+              </tr>
+              <tbody id="table-allocation-body"></tbody>
+            </table>
+          </div>
+          <div class="needmatrix">
+            <table>
+              <caption>
+                <strong>Need Matrix</strong>
+              </caption>
+              <tr>
+                <th>Process</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+              </tr>
+              <tbody id="table-need-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="part3">
+          <div class="maxallocation">
+            <table>
+              <caption>
+                <strong>Max Allocation</strong>
+              </caption>
+              <tr>
+                <th>Process</th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+              </tr>
+              <tbody id="table-max-body"></tbody>
+            </table>
+          </div>
+          <div class="avilablematrix">
+            <table>
+              <caption>
+                <strong>Avaliable Matrix</strong>
+              </caption>
+              <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+              </tr>
+              <tbody id="table-available-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="part4">
+          <div class="safeseq">
+            <table>
+              <caption>
+                <strong>Safe Sequence</strong>
+              </caption>
+              <tbody id="table-allocated-body"></tbody>
+            </table>
+          </div>
+          <div class="answer">
+            <h2 id="answer">Answer!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
