@@ -22,6 +22,8 @@ Eelectron
 https://nermeensoliman.github.io/bankers_algorithm/
 ```
 ## ScreenShot
-
+![GUI](https://github.com/nermeensoliman/bankers_algorithm/blob/main/1.jpg)
+![GUI](https://github.com/nermeensoliman/bankers_algorithm/blob/main/2.jpg)
+![GUI](https://github.com/nermeensoliman/bankers_algorithm/blob/main/3.jpg)
 
 
