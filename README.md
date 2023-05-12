@@ -18,5 +18,8 @@ VS code
 Eelectron
 ```
 ## Website 
-
+```bash
+https://nermeensoliman.github.io/bankers_algorithm/
+```
 ## Launch
+
